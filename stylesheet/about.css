@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap');
+*{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-size: 18px;
+}
+:root{
+    --h2font: Merriweather;
+    --h2size:27px;
+    --pfont: Poppins;
+}
+h2{
+    font-family: var(--h2font);
+    font-size: var(--h2size);
+}
+p{
+    font-family: var(--pfont);
+}
+.top-header{
+    background-color:rgb(165, 161, 161);
+    height:48px;
+    border-radius: 0 0 20px 20px;
+   
+}
+.top-header p{
+    color:white;
+    text-align: center;
+    padding-top: 1rem;
+}
+@media all and (min-width:700px){
+
+}
+@media all and (min-width: 960px){
+    .top-header{
+        background-color:rgb(165, 161, 161);
+        height:48px;
+        border-radius: 0 0 20px 20px;
+    }
+    .top-header p{
+        color:white;
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
+.newabout{
+    background-image: url("../images/manabout.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+ }
+ .row{
+    background-color: green;
+    height: 4rem;
+    position: absolute;
+    margin-top: 25%;
+    width:100%;
+ }
+.row h2{
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+ .why {
+    margin-left: 4rem;
+    padding:40px;
+ }
+ .next{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%; 
+    padding:30px;  
+}
+.web3{
+    flex:1;
+    background-color: gainsboro;
+    text-align: center;
+}
+.web3 img{
+    width:80%;
+    height: 100%;
+}  
+.web4{
+    flex:1;
+    padding:60px;
+    
+}
+.web4 h2{
+    text-align: left;
+    margin-bottom: 4%;
+}
+.founder{
+    background-color: green;
+    height: 50vh;
+}
+.logos p{
+    clear:both;
+    padding-top: 10%;
+    text-align: center;
+    
+}
+.logos-branch{
+    width:100%;
+}
+.logos-branch img{
+    width:20%;
+    padding:9px;
+    margin-left: 30px;
+ 
+}
+.logos-branch img:nth-child(1){
+    margin-left: 5rem;
+}
